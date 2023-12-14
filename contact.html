@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            background-image: url(/home/jawahar/Downloads/pexels-miguel-á-padriñán-255379.jpg);
+        }
+        h1{
+            text-align: center;
+            margin-top: 130px;
+        }
+      .call, .Whatspp, .Mail{
+        border: 2px solid;
+        grid: 50%;
+        height: 60px;
+        width: 290px;
+        text-align: center;
+        padding-top: 40px;
+        margin-left: 800px;
+        border-radius: 60px;
+        margin-top: 40px;
+        display: grid;
+      }
+      .Linked{
+        border: 2px solid;
+        grid: 50%;
+        height: 60px;
+        width: 410px;
+        text-align: center;
+        padding-top: 40px;
+        margin-left: 740px;
+        border-radius: 60px;
+        margin-top: 40px;
+        display: grid;
+
+      }
+      @media(max-width:600px)
+      {
+        .call, .Mail, .Whatspp, .Linked{
+            justify-content: center;
+            justify-items: center;
+            margin-left: 60px;
+        }
+         .Linked{
+            justify-content: center;
+            justify-items: center;
+            margin-left: 6px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact</h1>
+        <form class="call">
+            <i class="fa-solid fa-phone fa-fade fa-2xl"></i>
+            <label for="">9025649394</label>
+        </form>
+        <form class="Whatspp">
+            <i class="fa-brands fa-whatsapp fa-bounce fa-2xl"></i>    
+            <label for="">9025649394</label>
+        </form>
+        <form class="Mail">
+            <i class="fa-regular fa-envelope fa-flip fa-2xl"></i>    
+            <label for="">jawaharb2002@gmail.com</label>
+        </form>
+        <form class="Linked">
+            <i class="fa-brands fa-linkedin fa-beat fa-2xl"></i>            <label for="">https://www.linkedin.com/in/jawahar-b-4235a2227/</label>
+        </form>
+    </div>
+</body>
+</html>
